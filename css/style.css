@@ -161,7 +161,23 @@ header.contenedor{
     text-shadow: 0px 4px 0px red;
     text-shadow: 0px 5px 0px red;
     text-shadow: 0px 6px 5px red;
+    animation-duration: 2s;
+    animation-name: disappear;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
+@keyframes disappear {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
 .indexPage .NombreColor{
     text-shadow: 1px 7px 0px turquoise;
     text-shadow: 1px 7px 5px turquoise;
